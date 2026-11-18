@@ -13,6 +13,9 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
+// Entry title (authored for roblox-brainrot-01): "Brainrot Warung — Steal & Survive the Wave".
+export const ENTRY_TITLE = 'Brainrot Warung - Steal & Survive the Wave';
+
 import { copyFileSync, cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
